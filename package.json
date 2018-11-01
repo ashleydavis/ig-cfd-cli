@@ -1,7 +1,7 @@
 {
-    "name": "ig-cfds-data-downloader",
+    "name": "ig-cfd-cli",
     "version": "1.0.0",
-    "description": "Downloads price history for a CFG from the IG API.",
+    "description": "cli tool and API for the IG CFDs API.",
     "main": "build/index.js",
     "types": "build/index.d.ts",
     "scripts": {
@@ -13,26 +13,30 @@
         "prepublishOnly": "tsc"
     },
     "bin": {
-        "ig-cfds-data-downloader": "./bin/cli"
+        "ig-cfd-cli": "./bin/cli"
     },
     "repository": {
         "type": "git",
-        "url": "git+https://github.com/ashleydavis/ig-cfds-data-downloader.git"
+        "url": "git+https://github.com/ashleydavis/ig-cfd-cli.git"
     },
     "keywords": [],
     "author": "ashley@codecapers.com.au",
     "license": "MIT",
     "bugs": {
-        "url": "https://github.com/ashleydavis/ig-cfds-data-downloader/issues"
+        "url": "https://github.com/ashleydavis/ig-cfd-cli/issues"
     },
-    "homepage": "https://github.com/ashleydavis/ig-cfds-data-downloader#readme",
+    "homepage": "https://github.com/ashleydavis/ig-cfd-cli#readme",
     "dependencies": {
+        "chai": "4.2.0",
+        "data-forge": "^1.2.6",
         "moment": "2.22.2",
-        "chai": "4.2.0"
+        "request": "^2.88.0",
+        "request-promise": "^4.2.2"
     },
     "devDependencies": {
         "@types/chai": "4.1.6",
         "@types/node": "10.11.4",
+        "@types/request-promise": "^4.1.42",
         "source-map-support": "0.5.9",
         "ts-node": "7.0.1",
         "typescript": "3.1.1"

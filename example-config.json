@@ -1,0 +1,6 @@
+{
+    "baseUrl": "https://demo-api.ig.com/gateway/deal",
+    "userName": "<your-ig-username>",
+    "password": "<your-ig-password>",
+    "apiKey": "<your-ig-apikey>"
+}

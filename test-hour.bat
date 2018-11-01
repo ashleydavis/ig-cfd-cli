@@ -1,0 +1,1 @@
+npx ts-node .\src\cli.ts price-history IX.D.ASX.IFT.IP 3 HOUR
