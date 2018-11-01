@@ -1,6 +1,6 @@
 # ig-cfd-cli
 
-cli tool and API for the IG CFDs API.
+CLI tool and API for the IG CFDs API.
 
 WORK IN PROGRESS:
 
@@ -22,9 +22,9 @@ You must have Node.js installed to use this tool.
 
 Install it globally:
 
-    npm install -g ig-cfds-data-downloader
+    npm install -g ig-cfd-cli
 
-Create config.json in your working directory and fill your IG account details:
+Create config.json in your working directory and fill out your IG account details:
 
     {
         "baseUrl": "https://demo-api.ig.com/gateway/deal",
@@ -33,7 +33,7 @@ Create config.json in your working directory and fill your IG account details:
         "apiKey": "<your-ig-apikey>"
     }
 
-You can start your config.json with a copy of the [template config.json](todo):
+You can start your config.json with a copy of the [template config.json](https://github.com/ashleydavis/ig-cfd-cli/blob/master/example-config.json):
 
 Now run the command line tool to download the price history for a CFD:
 
@@ -49,7 +49,9 @@ For example to download the price history for the Bitcoin CFD:
 
     ig-cfd-cli price-history CS.D.BITCOIN.CFD.IP 10
 
-This downloads the price history to a CSV in the requested CFD in the working directory. It will be named after the epic that was requested. 
+This downloads the price history for the requested CFD to a CSV file in the working directory. 
+It will be named after the epic that was requested. 
+
 For example downloading CS.D.BITCOIN.CFD.IP will create the file CS-D-BITCOIN-CFD-IP.csv.
 
 Resolution defaults to DAY, but you can set it to other values such as HOUR:
