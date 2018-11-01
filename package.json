@@ -1,0 +1,40 @@
+{
+    "name": "ig-cfds-data-downloader",
+    "version": "1.0.0",
+    "description": "Downloads price history for a CFG from the IG API.",
+    "main": "build/index.js",
+    "types": "build/index.d.ts",
+    "scripts": {
+        "clean": "rm -rf build/*",
+        "build": "tsc",
+        "clean-build": "rm -rf build/* && tsc",
+        "build:watch": "tsc --watch",
+        "clean-build:watch": "rm -rf build/* && tsc --watch",
+        "prepublishOnly": "tsc"
+    },
+    "bin": {
+        "ig-cfds-data-downloader": "./bin/cli"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/ashleydavis/ig-cfds-data-downloader.git"
+    },
+    "keywords": [],
+    "author": "ashley@codecapers.com.au",
+    "license": "MIT",
+    "bugs": {
+        "url": "https://github.com/ashleydavis/ig-cfds-data-downloader/issues"
+    },
+    "homepage": "https://github.com/ashleydavis/ig-cfds-data-downloader#readme",
+    "dependencies": {
+        "moment": "2.22.2",
+        "chai": "4.2.0"
+    },
+    "devDependencies": {
+        "@types/chai": "4.1.6",
+        "@types/node": "10.11.4",
+        "source-map-support": "0.5.9",
+        "ts-node": "7.0.1",
+        "typescript": "3.1.1"
+    }
+}
