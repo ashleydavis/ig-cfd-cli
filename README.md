@@ -79,5 +79,5 @@ The resolution parameter is passed directly to the IG API, available options are
 ## Missing features
 
 - Document API usage.
-- Get accounts, get positions, open position, close position, etc.
-
+- Other commands: Get accounts, get positions, open position, close position, etc.
+- Better error checking (eg missing config file).

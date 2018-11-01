@@ -10,3 +10,8 @@ todo.txt
 .nyc_output/
 tsconfig.json
 config.json
+IX-D.ASX.IFT.IP-HOUR.csv
+IX-D.ASX.IFT.IP-DAY.csv
+test-day.bat
+test-hour.bat
+example-config.json
