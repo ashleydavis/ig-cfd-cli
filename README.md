@@ -8,7 +8,7 @@ WORK IN PROGRESS:
 
 To learn more about working with data in JavaScript please read my book [Data Wrangling with JavaScript](http://bit.ly/2t2cJu2).
 
-For news and updates see my blog [The Data Wrangler](http://www.the-data-wrangler.com/).
+[Click here to support my work](https://www.codecapers.com.au/about#support-my-work)
 
 ## WARNING
 
